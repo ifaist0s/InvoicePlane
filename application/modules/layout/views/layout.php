@@ -239,6 +239,13 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li>
+	                <a href="#" class="tip icon" data-original-title="<?php echo $this->session->userdata('user_name'); ?>" data-placement="bottom">
+                        <i class="fa fa-user"></i>
+                        <span class="visible-xs">&nbsp;<?php echo $this->session->userdata('user_name'); ?></span>
+	                </a>
+	           </li>
+
+                <li>
                     <a href="http://docs.invoiceplane.com/" target="_blank"
                        class="tip icon" data-original-title="<?php echo lang('documentation'); ?>"
                        data-placement="bottom">
